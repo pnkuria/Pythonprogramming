@@ -21,11 +21,20 @@
 #      name = input("Enter your name")
 #      print("Happy Birthday "+name )  
 # limp("name")
-def sum(sum_1):
-    num1=eval(input("Enter value1"))
-    num2=eval(input("Enter value 2"))
-    sum_1= num1+num2
-    print(sum_1)
-sum("sum_1") 
-
-
+# def sum(sum_1):
+#     num1=eval(input("Enter value1"))
+#     num2=eval(input("Enter value 2"))
+#     sum_1= num1+num2
+#     print(sum_1)
+# sum("sum_1") 
+# def divide(divide_1):
+#     num1=eval(input("Enter the value1"))
+#     num2=eval(input("Enter the value2"))
+#     divide_1= num1/num2
+#     print(divide_1)
+# divide("divide_1")
+def remain(remain_1):
+    num=eval(input("Enter your value"))
+    remain_1=num%2
+    print(remain_1)
+remain("remain_1") 
