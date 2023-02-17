@@ -25,7 +25,7 @@ def register():
 def get_profile():
     print(profile)
 def change_username():
-    new_username=input("Enter new user_name")
+    new_username=input("Enter new user_name:")
     profile["username"]= new_username
 register()
 get_profile()
