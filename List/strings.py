@@ -1,9 +1,9 @@
 name = "climate"
 
-# index
+#index
 # print(name[0])
-# print(len(name))
-# print(name[-1])
+print(len(name))
+print(name[-1])
 
 # for i in name:
     # print(i)
