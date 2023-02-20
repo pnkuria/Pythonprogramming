@@ -5,3 +5,4 @@ def cube(a):
 def square(a):
     result = a*a
     return result
+
