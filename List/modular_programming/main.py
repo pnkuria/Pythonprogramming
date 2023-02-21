@@ -8,6 +8,9 @@ if operator == "cube":
 elif operator == "square":
     num = eval(input("Enter number: "))
     print(others.square(num))
+elif operator == "squaroot":
+    num = eval(input('Enter number'))
+    print(others.squareroot(num))
 elif operator == "sine":
     angle = eval(input("Enter your angle in degrees: "))
     print(trig.get_sine(angle))
